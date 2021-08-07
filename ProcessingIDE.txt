@@ -1,0 +1,16 @@
+void setup() {
+ size (1200, 700); // window size of processing ide
+ smooth();
+ myPort = new Serial(this,"COM5", 9600); // initializing serial communication
+ myPort.bufferUntil('.'); 
+}
+void draw() {
+  fill(98,245,31);
+  noStroke();
+  fill(0,4); 
+  rect(0, 0, width, height-height*0.065);
+  fill(98,245,31); // green color for radar
+  // calling the functions for drawing the radar
+  drawRadar(); 
+  drawLine();
+  drawObject();drawText();}
