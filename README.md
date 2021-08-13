@@ -5,7 +5,7 @@ This system uses ultrasonic sensors to measure speed and uses a micro servo moto
 The PIR sensor is used to detect the presence of an intruder manually to overcome reseach gaps we found. 
 NodeMCU and blynk app is used to notify authorized people about intruder activity.
 
-**Overview **
+**Overview**
 
 ![IOT](https://user-images.githubusercontent.com/88004212/128614910-8dcc56e5-59cb-4159-8c1d-20c9a01dfa90.gif)
 
